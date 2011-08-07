@@ -120,12 +120,14 @@ class OlapDatasource implements OlapDatasourceInterface
      * @ORM\Column(name="schemaName", type="string", length=255)
      */
     private $schemaName;
+}
 ```
 
 
 ## Use Olap connection
 
-*** Action ***
+Action :
+
 ``` php
     public function helloAction($name)
     {
@@ -141,9 +143,10 @@ class OlapDatasource implements OlapDatasourceInterface
     }
 ```
 
-*** Template ***
+Template :
 
 ``` html
+
 <h1>{{ cube.getName() }}!</h1>
 
 <ul>
