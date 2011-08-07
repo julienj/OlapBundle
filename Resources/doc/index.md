@@ -125,7 +125,7 @@ class OlapDatasource implements OlapDatasourceInterface
 
 ## Use Olap connection
 
-*** Action
+*** Action ***
 ``` php
     public function helloAction($name)
     {
@@ -141,7 +141,7 @@ class OlapDatasource implements OlapDatasourceInterface
     }
 ```
 
-*** Template
+*** Template ***
 
 ``` html
 <h1>{{ cube.getName() }}!</h1>
